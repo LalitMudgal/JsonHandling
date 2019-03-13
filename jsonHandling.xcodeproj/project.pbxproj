@@ -14,6 +14,8 @@
 		12090B5721BC56C5003A7A13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12090B5521BC56C5003A7A13 /* LaunchScreen.storyboard */; };
 		12090B6221BC56C5003A7A13 /* jsonHandlingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12090B6121BC56C5003A7A13 /* jsonHandlingTests.swift */; };
 		12090B6D21BC56C6003A7A13 /* jsonHandlingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12090B6C21BC56C6003A7A13 /* jsonHandlingUITests.swift */; };
+		12090B7C21BC6245003A7A13 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12090B7B21BC6245003A7A13 /* Constant.swift */; };
+		12090B7E21BC676F003A7A13 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12090B7D21BC676F003A7A13 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		12090B6821BC56C6003A7A13 /* jsonHandlingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = jsonHandlingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		12090B6C21BC56C6003A7A13 /* jsonHandlingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = jsonHandlingUITests.swift; sourceTree = "<group>"; };
 		12090B6E21BC56C6003A7A13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12090B7B21BC6245003A7A13 /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		12090B7D21BC676F003A7A13 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				12090B5321BC56C5003A7A13 /* Assets.xcassets */,
 				12090B5521BC56C5003A7A13 /* LaunchScreen.storyboard */,
 				12090B5821BC56C5003A7A13 /* Info.plist */,
+				12090B7B21BC6245003A7A13 /* Constant.swift */,
+				12090B7D21BC676F003A7A13 /* User.swift */,
 			);
 			path = jsonHandling;
 			sourceTree = "<group>";
@@ -256,8 +262,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12090B7E21BC676F003A7A13 /* User.swift in Sources */,
 				12090B4F21BC56C4003A7A13 /* ViewController.swift in Sources */,
 				12090B4D21BC56C4003A7A13 /* AppDelegate.swift in Sources */,
+				12090B7C21BC6245003A7A13 /* Constant.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
